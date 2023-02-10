@@ -4,3 +4,6 @@
     --dark: #400903;
     --gold: #c2911d;
 }
+body {
+    background-color: var(--pink);
+}
