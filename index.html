@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Victoria McCrady</title>
     <link rel="stylesheet" href="index.css"/>
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,300;0,500;1,100;1,300;1,500&family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav></nav>
+    <nav class="overlay" id="mainNav">
+      <a href="javascript:void(0)"  class="closebtn" onclick="closeNav()">&times;</a>
+      <ul class="overlay--content">
+        <a href="#">Home</a>
+        <a href="#">Experience</a>
+        <a href="#">Portfolio</a>
+        <a href="#">About Me</a>
+      </ul>
+    </nav>
+    <div class="homebody">
+      <p class = "Homelogo">logo</p>
+      <main>
+        <ul class="homenav">
+          <li>Experience</li>
+          <li>Portfolio</li>
+          <li>About Me</li>
+        </ul>
+      </main>
+    </div>
+    <span class="menuBtn" onclick="openNav()">open</span>
   </body>
 </html>
