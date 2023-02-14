@@ -23,11 +23,12 @@ body {
     font-size: 30px;
     color: white;
     cursor: pointer;
-    padding: 2rem 2rem 1rem 1rem;
+    padding: .5rem;
     border: solid .1em white;
     text-decoration: none;
     background-color: rgba(0,0,0,0);
     transition: .5s;
+    margin: 1em;
 }
 .overlay /*background*/{
     height: 100%;
@@ -68,6 +69,104 @@ body {
     font-size: 60px;
 }
 
+/* || main page */
+.homeBody {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    /* border: solid .5rem white; */
+    /* margin: 2rem; */
+}
+
+/* .homeBody > * {
+    border: solid .5rem white;
+} */
+
+.homeLogo {
+    grid-row: 1 / 4;
+    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+    padding: 3em;
+    font-size: 2vw;
+    font-weight: 100;
+    /* border: solid .5rem white;
+    border-radius: .5rem; This is handled by cute-box class!*/
+}
+.homeBody--link {
+    font-size: 8vw; /* this is made larger in hover menu below*/
+    font-style: italic;
+    text-decoration: none;
+    transition: .5s;
+    color: white;
+    box-sizing: border-box;
+    padding: 15% 3rem;
+    align-self: center;
+}
+.homeBody--link:hover {
+    text-decoration: underline;
+    font-size: 9vw;
+    color: black;
+}
+.homeBody--link:focus {
+    text-decoration: underline;
+    font-size: 9vw;
+    color: var(--dark);
+    background: rgba(0,0,0,.2);
+    justify-self: stretch;
+}
+/* || ALL buttons look at this*/
+.menuBtn:hover,
+.menuBtn:focus {
+    color: black;
+    border: solid .1rem black;
+    padding: 1rem;
+    display: flex;
+    justify-self: stretch;
+    flex: 1 1 100%;
+    justify-content: center;
+    transition: .5s;
+}
+/* || link navs should be aligned left line of grid*/
+.homeBody--link:nth-of-type(1) {
+    grid-row: 1 / 3;
+    grid-column: 3 / 7; 
+    justify-self: stretch;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.homeBody--link:nth-of-type(2)  {
+    grid-row: 3 / 5;
+    grid-column: 3 / 7;
+    justify-self: stretch;
+}
+.homeBody--link:nth-of-type(3) {
+    grid-row: 5 / 7;
+    grid-column: 3 / 7;
+    justify-self: stretch;
+}
+/* || grid properties for button div*/
+.navButton--box {
+margin: 0;
+padding: 0;
+grid-row: 5 / 7;
+grid-column: 1 / 3;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+/* || Overlays || */
+
+/* || media 450px Height screens*/
 @media screen and (max-height: 450px) {
     .overlay a {
         font-size: 20px;
@@ -78,85 +177,25 @@ body {
         right: 35px;
     }
 }
-
-/* || main page */
-.homeBody {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    box-sizing: border-box;
-    padding: 1rem;
-}
-
-/* .homeBody > * {
-    border: solid .5rem white;
-} */
-
-.homeLogo {
-    grid-row: 1 / 5;
-    grid-column: 1 / 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1em;
-    padding: 1em;
-    font-size: 4vw;
-    font-weight: 100;
-    /* border: solid .5rem white;
-    border-radius: .5rem; */
-}
-.homeBody--link {
-    font-size: 9vw; /* this is made largerin hove menu below*/
-    font-style: italic;
-    text-decoration: none;
-    padding: 5rem;
-    transition: .5s;
-    color: white;
-}
-.homeBody--link:hover, .homeBody--link:focus {
-    text-decoration: underline;
-    font-size: 10vw;
-    color: black;
-    border-radius: 5%
-}
-/* || ALL buttons look at this*/
-button:hover,
-button:focus {
-    color: black;
-    border: solid .1rem black;
-    padding: 10vh;
-}
-/* || link navs should be aligned left line of grid*/
-#firstNav {
-    grid-row: 1 / 3;
-    grid-column: 2 / 4; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#secondNav {
-    grid-row: 3 / 5;
-    grid-column: 2 / 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#thirdNav {
-    grid-row: 5 / 7;
-    grid-column: 2 / 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* || grid properties for button div*/
-#navButton {
-grid-row: 5 / 7;
-grid-column: 1 / 2;
-display: flex;
-justify-content: flex-start;
-align-items: flex-end;
+@media screen and (max-width: 500px) {
+    .homeBody {
+        display: flex;
+        flex-direction: column;
+    }
+    .homeLogo {
+        display: flex;
+        flex-direction: row;
+    }
+    .menuBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+        top: 95%;
+        width: 3.5em;
+        margin-top: -2.5em;
+        font-size: 5vw;
+    }
+    
 }

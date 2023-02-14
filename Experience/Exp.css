@@ -3,29 +3,25 @@ body {
     font-family: 'Josefin Sans', 'Montserrat', sans-serif;
     background: white;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
     justify-content: stretch;
     max-height: 100vh;
     margin: 1em 0em 0em 0em;
 }
-.personal {
+article {
     display: flex;
     flex: 1 1 50%;
     min-width: 250px;
-    flex-wrap: wrap; /*this isn't working*/
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
+.personal {
     background: #719686;
 }
 .proffesional {
-    display: flex;
-    flex: 1 1 50%;
-    min-width: 250px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
     background: #ffc3c3;
 }
 h1 {
@@ -48,16 +44,27 @@ h2 {
     width: 90%;
     box-sizing: border-box;
 }
+
 .article-body {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    margin: 2rem;
+}
+/* .personal-body {
+    align-self: flex-start;
     flex: 1 1 40%;
     font-size: 2vw;
     font-style: normal;
     padding: 0em 1em;
     margin: 0em 0em 0em 1em;
-    width: 90%;   
-}
+    width: 90%;
+    border: solid 1rem greenyellow;   
+} */
 
-/* media queries; change to column-style body under 500px screen*/
+/* || media queries; change to column-style body under 500px screen ||*/
+@media  min-width(600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
