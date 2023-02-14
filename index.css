@@ -12,15 +12,16 @@ font-family: 'Josefin Sans', 'Montserrat', sans-serif;
     flex-direction: column;
     align-content: flex-start;
     height: 100vh;
+    color: white;
 }
 /*|| button nav stuff*/
 .menuBtn {
     font-size: 30px;
     color: white;
-    border: none;
     cursor: pointer;
     padding: 2rem 2rem 1rem 1rem;
     border: solid .1em white;
+    text-decoration: none;
     background-color: rgba(0,0,0,0);
 }
 .overlay /*background*/{
@@ -100,23 +101,28 @@ font-family: 'Josefin Sans', 'Montserrat', sans-serif;
     padding: 1em;
     font-size: 4vw;
     font-weight: 100;
-    color: white;
-    border: solid .75rem white;
+    border: solid .5rem white;
     border-radius: .5rem;
 }
 .homeBody--link {
     font-size: 9vw; /* this is made largerin hove menu below*/
     font-style: italic;
-    color: white;
     text-decoration: none;
     padding: 5rem;
     transition: .5s;
+    color: white;
 }
 .homeBody--link:hover, .homeBody--link:focus {
     text-decoration: underline;
     font-size: 10vw;
     color: black;
     border-radius: 5%
+}
+/* || ALL buttons look at this*/
+button:hover,
+button:focus {
+    color: black;
+    border: solid .1rem black;
 }
 #firstNav {
     grid-row: 1 / 3;
