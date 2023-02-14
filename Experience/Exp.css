@@ -1,23 +1,63 @@
-:root {
-    --pink: #ffc3c3;
-    --green: #719686;
-    --dark: #400903;
-    --gold: #c2911d;
-}
+
 body {
+    font-family: 'Josefin Sans', 'Montserrat', sans-serif;
     background: white;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 49%));
-    grid-template-rows: repeat(auto-fill);
-    gap: 1rem;
-
-
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    max-height: 100vh;
+    margin: 1em 0em 0em 0em;
 }
 .personal {
     display: flex;
+    flex: 1 1 50%;
+    min-width: 250px;
+    flex-wrap: wrap; /*this isn't working*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     background: #719686;
 }
 .proffesional {
     display: flex;
+    flex: 1 1 50%;
+    min-width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     background: #ffc3c3;
 }
+h1 {
+    font-size: 7vw;
+}
+h2 {
+    font-size: 3vw;
+}
+.personal{
+    font-style: italic;
+}
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 2vw;
+    margin: 2vw;
+    width: 90%;
+    box-sizing: border-box;
+}
+.article-body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex: 1 1 40%;
+    font-size: 2vw;
+    font-style: normal;
+    padding: 0em 1em;
+    margin: 0em 0em 0em 1em;
+    width: 90%;   
+}
+
+/* media queries; change to column-style body under 500px screen*/

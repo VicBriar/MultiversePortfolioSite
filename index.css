@@ -6,13 +6,17 @@
 }
 body {
     /* font-family: 'Amita', cursive; */
-font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', 'Montserrat', sans-serif;
     background-color: var(--pink);
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     height: 100vh;
     color: white;
+}
+.cute-box {
+    border: solid .5rem white;
+    border-radius: .5rem;
 }
 /*|| button nav stuff*/
 .menuBtn {
@@ -102,8 +106,8 @@ font-family: 'Josefin Sans', 'Montserrat', sans-serif;
     padding: 1em;
     font-size: 4vw;
     font-weight: 100;
-    border: solid .5rem white;
-    border-radius: .5rem;
+    /* border: solid .5rem white;
+    border-radius: .5rem; */
 }
 .homeBody--link {
     font-size: 9vw; /* this is made largerin hove menu below*/
@@ -126,6 +130,7 @@ button:focus {
     border: solid .1rem black;
     padding: 10vh;
 }
+/* || link navs should be aligned left line of grid*/
 #firstNav {
     grid-row: 1 / 3;
     grid-column: 2 / 4; 
