@@ -1,0 +1,23 @@
+:root {
+    --pink: #ffc3c3;
+    --green: #719686;
+    --dark: #400903;
+    --gold: #c2911d;
+}
+body {
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 49%));
+    grid-template-rows: repeat(auto-fill);
+    gap: 1rem;
+
+
+}
+.personal {
+    display: flex;
+    background: #719686;
+}
+.proffesional {
+    display: flex;
+    background: #ffc3c3;
+}
