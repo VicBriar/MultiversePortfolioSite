@@ -23,6 +23,7 @@ font-family: 'Josefin Sans', 'Montserrat', sans-serif;
     border: solid .1em white;
     text-decoration: none;
     background-color: rgba(0,0,0,0);
+    transition: .5s;
 }
 .overlay /*background*/{
     height: 100%;
@@ -123,6 +124,7 @@ button:hover,
 button:focus {
     color: black;
     border: solid .1rem black;
+    padding: 10vh;
 }
 #firstNav {
     grid-row: 1 / 3;
