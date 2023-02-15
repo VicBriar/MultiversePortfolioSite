@@ -1,7 +1,7 @@
 body {
     background: var(--gold);
     color: black;
-    border: dashed .5rem white;
+    /* border: dashed .5rem white; */
     display: flex;
     box-sizing: border-box;
     align-items: stretch;
@@ -84,23 +84,22 @@ img {
 }
 .about > p::first-letter {
     font-family: amita, cursive;
-    position: top;
     font-size: 9vw;
+    /* position: top;
     line-height: 1;
     margin: 0 1rem 0 0;
-    padding: 0 1rem 0 0;
+    padding: 0 1rem 0 0; */
     color: var(--gold);
     
 }
 
 /* media styles timmmee~~~~ for some reason media screen isn't ONLY applyin to small screens >:/*/
-/* @media screen and (max-width:740px) {
+@media only screen and (max-width: 500px) {
 body {
     padding: 10px;
 }
 img {
     max-width: 100%;
-}
 }
 article {
     box-sizing: border-box;
@@ -123,4 +122,5 @@ article {
 }
 .links {
 
-} */
+}
+}
