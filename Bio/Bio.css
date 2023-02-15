@@ -1,15 +1,21 @@
 body {
     background: var(--gold);
+    color: black;
+    border: dashed .5rem white;
+    display: flex;
+    box-sizing: border-box;
+    align-items: stretch;
+    padding: 3rem;
+    margin: 1rem;
+    height: 100%;
 }
-* {
-    border: dashed .1rem white;
-}
-article {
+.tldr {
     display: grid;
     /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 1rem;
+    box-sizing: border-box;
 }
 /* vv all of this is Temmmpppp-ooo-rarrrr---yyy*/
 img {
@@ -17,6 +23,11 @@ img {
 }
 .gridObj{
     display: grid;
+    background: white;
+    margin: 1rem;
+}
+.gridObj > * {
+    margin: .5rem;
 }
 .aboutCard--img {
     width: 50px;
@@ -30,6 +41,7 @@ img {
 }
 .aboutCard--title {
     text-align: center;
+    color: var(--gold);
     font-size: 10vw;
     margin: 1rem;
 }
@@ -40,8 +52,8 @@ img {
     justify-content: flex-start;
     align-items: stretch;
 }
-.aboutCard--item > * {
-    margin: 1rem;
+.aboutCard--item > p {
+    margin: .5rem;
 }
 .profilePic{
     grid-column: 3 / 4;
@@ -57,13 +69,58 @@ img {
     align-items: center;
     transition: .5s;
 }
+
+/* || grid ends above this line */
 .about {
-    grid-column: 1/ 4;
-    grid-row: 3 / 4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
     margin: 1rem;
-    justify-content: stretch;
-    align-items: stretch;
-}
+    padding: 2rem 0;
+} 
 .about > p {
-    margin: 0;
+    line-height: 1;
 }
+.about > p::first-letter {
+    font-family: amita, cursive;
+    position: top;
+    font-size: 9vw;
+    line-height: 1;
+    margin: 0 1rem 0 0;
+    padding: 0 1rem 0 0;
+    color: var(--gold);
+    
+}
+
+/* media styles timmmee~~~~ for some reason media screen isn't ONLY applyin to small screens >:/*/
+/* @media screen and (max-width:740px) {
+body {
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+}
+}
+article {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tldr {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.aboutCard {
+}
+.profilePic {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    order: -1;
+}
+.links {
+
+} */
