@@ -61,7 +61,7 @@ h2 {
 } */
 
 /* || media queries; change to column-style body under 500px screen ||*/
-@media  min-width(600px) {
+@media  screen and (min-width:600px) {
     body {
         display: flex;
         flex-direction: column;
