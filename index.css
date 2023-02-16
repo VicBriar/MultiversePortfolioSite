@@ -53,17 +53,17 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: white;
     display: block;
     transition: .3s;
 }
 .overlay a:hover,
 .overlay a:focus {
-    color: #f1f1f1;
+    color: var(--pink);
 }
 
 .overlay {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 45px;
     font-size: 60px;
@@ -127,7 +127,7 @@ body {
 .menuBtn:hover,
 .menuBtn:focus {
     color: black;
-    border: solid .1rem black;
+    border-color: black;
     padding: 1rem;
     display: flex;
     justify-self: stretch;

@@ -7,7 +7,7 @@
     <title>Victoria McCrady</title>
     <link rel="stylesheet" href="../index.css"/>
     <link rel="stylesheet" href="Exp.css"/>
-    <script src="Exp.js"></script>
+    <script src="../index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,9 +15,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,300;0,500;1,100;1,300;1,500&family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    </article>
+    <nav class="overlay" id="mainNav">
+      <a href="javascript:void(0)"  class="closebtn" onclick="closeNav()">&times;</a>
+      <ul class="overlay--content">
+        <a href="../index.html">Home</a>
+        <a href="../Experience/Exp.html">Experience</a>
+        <a href="#">Portfolio</a>
+        <a href="../Bio/Bio.html">About Me</a>
+        </nav>
+    <div class="content">
     <article class="proffesional">
-        <h1 class="proffesional-title">Proffesional</h1>
+        <h1 class="proffesional-title">Professional</h1>
         <h2 class="subtitle cute-box">Experience & Successes</h2>
         <div class="proffesional-body article-body">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non rhoncus est, mollis ultrices diam. Suspendisse eleifend pharetra odio, ornare sodales erat. Mauris pulvinar urna sed venenatis malesuada. Aliquam erat volutpat. Maecenas ultricies at leo sit amet vulputate. Curabitur scelerisque non lacus vel porta. Suspendisse potenti. Sed porta tortor a lectus condimentum tincidunt. Aenean nec enim orci. Sed tellus justo, dapibus a justo quis, congue sodales dui. Phasellus quis ultricies nisi. Duis sit amet magna gravida, ullamcorper augue at, suscipit felis. Sed tristique urna at mauris elementum, eget maximus ante elementum.
@@ -47,4 +55,7 @@
             Nam aliquet libero lorem, non porta erat ultricies sit amet. Sed viverra accumsan orci vel molestie. Maecenas quis metus dolor. Morbi sed volutpat eros, id auctor erat. Sed risus elit, efficitur nec dui ut, gravida vestibulum metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis sed metus at dictum. Donec a metus a massa mattis condimentum vitae quis ligula. Curabitur sagittis eros sit amet mauris semper, ac aliquet justo egestas. Duis pretium velit et pharetra aliquet. Ut viverra sodales purus at sollicitudin. Maecenas faucibus hendrerit nunc vitae suscipit. Maecenas dignissim gravida massa ac sodales. Vestibulum vel auctor lorem.
         </p>
     </div>
+    </article>
+  </div>
+    <div class="navButton--box"><button class="menuBtn cute-box" onclick="openNav()">open</button></div>
   </body>

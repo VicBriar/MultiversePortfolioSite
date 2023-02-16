@@ -1,5 +1,8 @@
-
 body {
+    background-color: white;
+    margin: 0;
+}
+.content {
     font-family: 'Josefin Sans', 'Montserrat', sans-serif;
     background: white;
     display: flex;
@@ -8,7 +11,15 @@ body {
     align-items: stretch;
     justify-content: stretch;
     max-height: 100vh;
-    margin: 1em 0em 0em 0em;
+}
+.menuBtn {
+    position: absolute;
+    left: 0;
+    bottom: 1vh;
+    box-sizing: content-box;
+    margin: 1rem;
+    padding: 1rem;
+    background: rgba(0,0,0,.5);
 }
 article {
     display: flex;
@@ -25,10 +36,10 @@ article {
     background: #ffc3c3;
 }
 h1 {
-    font-size: 7vw;
+    font-size: 6vw;
 }
 h2 {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .personal{
     font-style: italic;
@@ -61,8 +72,8 @@ h2 {
 } */
 
 /* || media queries; change to column-style body under 500px screen ||*/
-@media  screen and (min-width:600px) {
-    body {
+@media  only screen and (max-width: 600px) {
+    .content {
         display: flex;
         flex-direction: column;
 
