@@ -92,9 +92,19 @@ img {
     color: var(--gold);
     
 }
+.menuBtn {
+    position: fixed;
+    left: 0;
+    bottom: 1vh;
+    box-sizing: content-box;
+    margin: 1rem;
+    padding: 1rem;
+    background: rgba(0,0,0,.5);
+}
+
 
 /* media styles timmmee~~~~ for some reason media screen isn't ONLY applyin to small screens >:/*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 body {
     padding: 10px;
 }
@@ -112,15 +122,11 @@ article {
     display: flex;
     flex-direction: column;
 }
-.aboutCard {
-}
 .profilePic {
     justify-content: center;
     align-items: center;
     padding: 1rem;
     order: -1;
 }
-.links {
+}
 
-}
-}
