@@ -93,12 +93,13 @@ img {
     line-height: 1;
 }
 .about > p::first-letter {
-    font-family: amita, cursive;
+    /* font-family: amita, cursive; */
+    font-family: 'Playfair Display', serif;
     font-size: 9vw;
-    /* position: top;
+    position: bottom;
     line-height: 1;
     margin: 0 1rem 0 0;
-    padding: 0 1rem 0 0; */
+    padding: 0 1rem 0 0;
     color: var(--gold);
     
 }
