@@ -214,11 +214,26 @@ svg {
         display: flex;
         flex-direction: row;
     }
-    .menuBtn {
-        /* width: 100px;
+    .svg--box {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
         height: 100px;
-        padding: 1rem; */
-        
+        box-sizing: content-box;
+        background-color: rgba(0,0,0,.5);
+        transition: .5s;
+        border: solid .2em white;
+    
+    }
+    .svg--box:hover{
+        width: 150px;
+    }
+    svg {
+        margin: 10px;
+        position: absolute;
+        height: 100px;
     }
     
 }

@@ -76,6 +76,7 @@ h2 {
     .content {
         display: flex;
         flex-direction: column;
-
+        align-items: center;
+        flex-wrap: nowrap;
     }
 }
