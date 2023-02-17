@@ -3,21 +3,11 @@ body {
     background: var(--green);
     min-height: 100vh;
 }
-.menuBtn {
-    position: fixed;
-    left: 0;
-    bottom: 1vh;
-    box-sizing: content-box;
-    margin: 1rem;
-    padding: 1rem;
-    background: rgba(0,0,0,.5);
-}
 
 img {
     width: 100px;
 }
 main {
-    border: solid .5rem white;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -26,7 +16,6 @@ main {
     display: flex;
     flex-direction: column;
     min-width: 200px;
-    overflow: hidden;
     flex: 1 1 20%;
     margin: 1rem;
     padding: 1rem;
@@ -43,13 +32,12 @@ portObj-child {
    align-self: center;
 }
 
-.portObj:hover,
+/* .portObj:hover,
 .portObj:focus {
-
-    /* display: flex;
+    display: flex;
     display: visible;
     flex-direction: row;
     justify-content: center;
-    flex: 1 1 50%; */
-}
+    flex: 1 1 50%;
+} */
 
