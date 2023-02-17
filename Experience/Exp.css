@@ -12,15 +12,15 @@ body {
     justify-content: stretch;
     max-height: 100vh;
 }
-.menuBtn {
-    position: absolute;
+/* .menuBtn {
+    position: fixed;
     left: 0;
     bottom: 1vh;
     box-sizing: content-box;
     margin: 1rem;
     padding: 1rem;
     background: rgba(0,0,0,.5);
-}
+} */
 article {
     display: flex;
     flex: 1 1 50%;

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="profile" xmlns="http://www.w3.org/2000/svg" width="474.67" height="474.67" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 474.67 474.67">
+  <defs>
+    <style>
+      .p, .q, .r, .s, .t {
+        fill: none;
+      }
+
+      .q {
+        stroke-width: 3px;
+      }
+
+      .q, .u, .v, .w, .x, .y, .z, .aa, .r, .s, .t {
+        stroke-miterlimit: 10;
+      }
+
+      .q, .s {
+        stroke: #c2911d;
+      }
+
+      .u {
+        stroke-linecap: square;
+      }
+
+      .u, .z {
+        fill: #ce6742;
+        stroke: #682a19;
+      }
+
+      .ab {
+        fill: #cc8656;
+      }
+
+      .ac {
+        fill: #719686;
+      }
+
+      .v {
+        fill: #ffc3c3;
+      }
+
+      .v, .w {
+        stroke: #400903;
+      }
+
+      .w {
+        fill: #ffe1e1;
+      }
+
+      .x {
+        fill: #eaceb9;
+      }
+
+      .x, .y, .t {
+        stroke: #cc8656;
+      }
+
+      .y {
+        fill: #efc3bd;
+      }
+
+      .aa {
+        fill: #400903;
+      }
+
+      .aa, .r {
+        stroke: #ce6742;
+      }
+
+      .r {
+        stroke-width: 2px;
+      }
+
+      .r, .s {
+        stroke-linecap: round;
+      }
+
+      .ad {
+        fill: #edf1ff;
+        opacity: .18;
+      }
+
+      .ae {
+        clip-path: url(#d);
+      }
+
+      .s {
+        stroke-width: 5px;
+      }
+
+      .t {
+        stroke-width: .25px;
+      }
+    </style>
+    <symbol id="a" data-name="freckles" viewBox="0 0 16.13 10">
+      <g>
+        <circle class="ab" cx="11.12" cy="9" r="1"/>
+        <circle class="t" cx=".62" cy="5.5" r=".5"/>
+        <circle class="ab" cx="15.63" cy="3.5" r=".5"/>
+        <ellipse class="ab" cx="3.79" cy="1" rx=".67" ry="1"/>
+      </g>
+    </symbol>
+    <clipPath id="d">
+      <polygon class="p" points="318.57 139.34 170.6 136.66 111.92 188.75 97.92 241.34 110.92 386.34 203.92 467.34 282.92 467.34 359.92 395.34 379.92 240.34 361.92 188.75 318.57 139.34"/>
+    </clipPath>
+  </defs>
+  <rect class="ac" x="-33.16" y="-59.16" width="529" height="550"/>
+  <g>
+    <ellipse class="v" cx="241.92" cy="173.34" rx="157.7" ry="166"/>
+    <ellipse class="w" cx="241.92" cy="226.26" rx="168" ry="159.92"/>
+    <g id="c" data-name="ears">
+      <polygon class="x" points="398.89 297.4 420.38 240.24 396.87 207.51 365.83 233.2 358.29 291.6 368.78 319.73 398.89 297.4"/>
+      <polygon class="x" points="75.79 297.4 54.29 240.24 77.8 207.51 108.84 233.2 116.38 291.6 105.89 319.73 75.79 297.4"/>
+    </g>
+    <polygon class="x" points="318.57 138.34 170.6 135.66 111.92 187.75 97.92 240.34 110.92 385.34 203.92 466.34 282.92 466.34 359.92 394.34 379.92 239.34 361.92 187.75 318.57 138.34"/>
+    <polyline class="x" points="224.92 215.34 214.92 274.34 199.92 301.34 229.17 324.34 251.68 324.34 281.92 301.34 263.92 274.34 254.92 215.34"/>
+    <g class="ae">
+      <g>
+        <use width="16.13" height="10" transform="translate(309.7 348.55)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(273.18 349.47)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(284.25 340.59)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(285.2 355.9)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(300.68 292.25)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(301.49 277.98)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(301.53 259.89)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(318.76 266.52)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(338.49 283.99)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(339.87 303.52)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(289.76 314.09)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(237.9 296.49)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(200.48 282.46)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(182.58 282.8)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(169.52 304.08)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(154.93 298.71)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(127.38 280.71)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(118.25 297.73)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(120.13 330.85)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(172.32 336.34)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(205.2 336.91)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(207.58 367.37)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(222.42 326.21)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(221.16 271.69)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(250.7 235.07)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(276.07 261.17)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(317.56 301.3)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(348.59 355.82)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(363.44 352.13)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(380.77 298.33)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(380.96 311.98)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(139.5 343.83)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(115.26 345.4)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(90.46 289.3)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(94.26 254.28)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(93.67 268.21)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(66.14 293.1)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(52.02 273.95)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(158.89 212.47)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(249.42 166.09)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(260.8 140.59)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(284.71 115.37)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(304.96 159.46)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(281.65 171.9)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(213.69 147.5)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(201.57 167.86)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(212.56 222.93)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(223.96 227.54)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(191.46 255.67)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(242.07 353.79)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(277.78 385.5)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(254.03 397.76)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(206.95 415.23)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(210.79 436.18)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(241.45 450.79)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(197.82 447.76)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(154.99 372.59)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(164.93 264.39)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(152.24 245.87)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(133.24 328.25)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(327.32 334.17)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(353.11 296.25)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(348.8 328.29)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(304.28 364.13)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(265.51 309.84)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(259.01 275.3)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(226.11 253.7)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(234.49 199.4)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(144.43 176.69)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(115.4 218.21)" xlink:href="#a"/>
+        <use width="16.13" height="10" transform="translate(123.83 256.12)" xlink:href="#a"/>
+      </g>
+    </g>
+    <g id="e" data-name="hair">
+      <polygon id="f" data-name="back" class="z" points="150.92 137.34 333.92 141.34 318.57 101.34 253.92 78.34 240.92 82.34 211.92 138.34 206.92 138.34 214.92 94.34 210.92 84.34 170.6 98.66 150.92 137.34"/>
+      <path class="u" d="m186.18,137.94c-10.77,0-6.16-36.16-24.62-36.16-18.47,0-4.23,80.56-43.47,80.56-8.46,0-10-5.39-7.69-7.69,2.72-2.72,7.69-4.62,8.46-5.39-1.61,1.61-8.46,6.93-3.85,9.23,2.84,1.42,6.93.77,7.69-3.85.54-3.22,4.76-61.27,8.85-65.94,5.39-6.16,16.16-12.31,33.86-8.46s20.78,37.7,20.78,37.7Z"/>
+      <path id="g" data-name="hair" class="u" d="m201.92,138.34c-12.68,0-2.68-46.6-22.96-46.6-20.28,0-3.38,78.6-34.65,78.6-14.37,0-25.41-12.6-27.89-14.37,5.92,4.23,19.44,10.14,22.82,6.76,4.23-4.23,2.27-58.26,6.76-63.38,5.92-6.76,17.75-13.52,37.19-9.3s18.73,48.29,18.73,48.29Z"/>
+      <path class="z" d="m189.21,74.26c-15.88-10.99-28.87,16.71-31.92,25-3.57,9.72-3.31,55.6,29.92,54.98,12.64.37,27.58-2.05,26.34-2.72-6.32-.18-33.72-4.46-34.22-19.97-2.22-10.82,3.19-38.88,32.23-41.61,6.37-.6-4.62,49.98-4.63,48.4-.02-3.8,12-39,8-48-2.76-8.6-10.14-15.07-25.72-16.08Z"/>
+      <path class="z" d="m328.31,129.26c15.88-10.99,28.87,16.71,31.92,25,3.57,9.72,3.31,55.6-29.92,54.98-12.64.37-27.58-2.05-26.34-2.72,6.32-.18,33.72-4.46,34.22-19.97,2.22-10.82-3.19-38.88-32.23-41.61-6.37-.6-1.05,17.98-1.04,16.4,0,0-6.33-7-2.33-16,2.76-8.6,10.14-15.07,25.72-16.08Z"/>
+      <path class="u" d="m255.92,139.34c21,2,11-42,35-42s4,93,41,93c17,0,30.07-14.9,33-17-7,5-23,12-27,8-5-5-2.69-68.93-8-75-7-8-21-16-44-11s-30,44-30,44Z"/>
+      <path class="u" d="m238.92,139.34c14,0,8-47,32-47s-1,93,50,93c11,0,13-7,10-10-3.54-3.54-10-6-11-7,2.09,2.09,11,9,5,12-3.69,1.84-9,1-10-5-.7-4.18.31-67.93-5-74-7-8-21-16-44-11s-27,49-27,49Z"/>
+      <path id="h" data-name="hair" class="u" d="m211.92,138.34c15,0,15-57,39-57s4,93,41,93c17,0,30.07-14.9,33-17-7,5-23,12-27,8-5-5-2.69-68.93-8-75-7-8-21-16-44-11s-34,59-34,59Z"/>
+    </g>
+    <g id="i" data-name="glasses">
+      <g>
+        <g>
+          <polygon class="ad" points="188.07 182.34 126.78 182.34 97.92 217.19 97.92 258.34 126.78 301.34 188.07 301.34 216.92 258.34 216.92 217.19 188.07 182.34"/>
+          <polygon class="q" points="188.07 182.34 126.78 182.34 97.92 217.19 97.92 258.34 126.78 301.34 188.07 301.34 216.92 258.34 216.92 217.19 188.07 182.34"/>
+        </g>
+        <g>
+          <polygon class="ad" points="353.07 182.34 291.78 182.34 262.92 217.19 262.92 258.34 291.78 301.34 353.07 301.34 381.92 258.34 381.92 217.19 353.07 182.34"/>
+          <polygon class="q" points="353.07 182.34 291.78 182.34 262.92 217.19 262.92 258.34 291.78 301.34 353.07 301.34 381.92 258.34 381.92 217.19 353.07 182.34"/>
+        </g>
+        <polyline id="j" data-name="nosebar" class="s" points="216.92 217.19 238.92 213.34 262.92 217.19"/>
+        <line id="k" data-name="crossbar" class="s" x1="157.42" y1="182.34" x2="326.92" y2="182.34"/>
+      </g>
+    </g>
+    <path class="y" d="m291.92,368.34l-2,1-19-3-23-5-11,5-10-5-16,4-23,3-5-2,6,3,18,16,23.46,8.01h13.1s24.44-6.01,24.44-6.01l19-17,5-2h0Zm-61,10l-18-5-25-5,49,9,49-7-24,4-16,4h-15Zm-41.41-9.2"/>
+    <g id="l" data-name="eye">
+      <line class="r" x1="311.82" y1="230.15" x2="326.88" y2="226.27"/>
+      <ellipse class="aa" cx="304.92" cy="234.84" rx="15" ry="21.5"/>
+    </g>
+    <g id="m" data-name="eye">
+      <line class="r" x1="163.03" y1="230.15" x2="147.97" y2="226.27"/>
+      <ellipse class="aa" cx="169.92" cy="234.84" rx="15" ry="21.5"/>
+    </g>
+  </g>
+</svg>
