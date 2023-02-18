@@ -31,14 +31,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-.overlay--content {
-    /* position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: left;
-    margin-top: 30px; for small screens */
-
-}
 .overlay a {
     padding: 8px;
     text-decoration: none;
